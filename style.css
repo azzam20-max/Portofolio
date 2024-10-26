@@ -1,0 +1,127 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Portfolio container */
+.portfolio {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header styling */
+.header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.header p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 8px;
+}
+
+/* Projects section styling */
+.projects h2 {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 100%;
+    max-width: 240px;
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 8px 0;
+}
+
+.project p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50; /* Warna hijau */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #45a049; /* Warna hijau yang lebih gelap */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); /* Sedikit mengangkat tombol saat di-hover */
+}
+
+/* Active state */
+.button:active {
+    background-color: #388e3c; /* Warna hijau yang lebih gelap lagi saat diklik */
+    transform: translateY(0); /* Menurunkan kembali tombol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
